@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games Matematika</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Permainan Tambah dan Kurang</h1>
+        <div id="score">Skor: 0</div>
+        <hr>
+       <strong> <div id="question"></div></strong>
+       <br>
+        <input type="text" inputmode="numeric" id="answer" placeholder="Jawaban Anda">
+        <button id="submit">Kirim</button>
+        <div id="result"></div>
+        <br>
+        <button id="toggle-music">Matikan Musik</button>
+    </div>
+    <audio id="correct-sound" src="audio/correct-6033.mp3"></audio>
+    <audio id="wrong-sound" src="audio/wronganswer-37702.mp3"></audio>
+    <audio id="background-music" src="audio/backsound.mp3" loop></audio>
+    <script src="script.js"></script>
+</body>
+</html>
